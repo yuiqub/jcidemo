@@ -9,12 +9,12 @@ class CalculatorTest {
 	@Test
 	void testAdd() {
 		Calculator c = new Calculator();
-		assertEquals(c.add(10,1), 11);
+		assertEquals(11, c.add(10,1));
 	}
 	
 	@Test
 	void testSub() {
 		Calculator c = new Calculator();
-		assertEquals(c.sub(10,1), 9);
+		assertEquals(9, c.sub(10,1));
 	}
 }
